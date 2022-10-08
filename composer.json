@@ -1,0 +1,21 @@
+{
+    "name": "maxson.carvalho/php-teste",
+    "description": "Buscar cep online",
+    "autoload": {
+        "psr-0": {
+            "Search":"src/"
+        },
+        "psr-4": {
+            "MaxsonCarvalho\\DigitalCep\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maxson de Santana Carvalho",
+            "email": "maxson.carvalho@findes.org.br"
+        }
+    ],
+    "require": {
+        "php":">=8.1.11"
+    }   
+}
